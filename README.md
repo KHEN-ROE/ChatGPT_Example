@@ -1,3 +1,5 @@
+# Forked from JoeCP17
+
 # 소개
 
 ---
@@ -28,6 +30,7 @@ Open Ai가 제공하는 서비스 중, 메인 기능이라고 생각하는 채�
   - Completion
 
 Socket 에서 Completion 하나만 구현한 이유는 Handler내 서드파티에서 제공하는 OpenAiService 에서 요청 요소만 다르게 적용해주면 되기에 해당 부분에 대해서는 따로 구현을 두진 않았다. ( 비슷한 요소가 있기에 )
+-> CompletionChat으로 변경하였음.
 
 2023.05.08 
 
